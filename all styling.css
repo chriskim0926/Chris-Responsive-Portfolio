@@ -1,0 +1,13 @@
+.navbar-brand{
+    font-weight: 700;
+    background: lightseagreen;
+    color: white;
+}
+
+a{
+    color: grey;    
+}
+a:hover{
+    color: black;
+    font-weight: 700;
+}
