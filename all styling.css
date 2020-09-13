@@ -26,3 +26,13 @@ body {
     background: white;
     margin-bottom: 50px;
 }
+.footer{
+    background: white;
+    height: 30px;
+    width: 100%;
+}
+
+.text-muted{
+    font-size: 10pt;
+    margin-left: 80px;
+}

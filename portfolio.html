@@ -2,15 +2,21 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -20,59 +26,77 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="all styling.css">
     <link rel="stylesheet" href="portfolio_styling.css">
 
-    </head>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+</head>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
 
-        <!-- Our brand / logo -->
-        <a style="color: white;" class="navbar-brand" href="#" >Chris Kim</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-          <!-- Collapsible button -->
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-  
+    <!-- Our brand / logo -->
+    <a style="color: white;" class="navbar-brand" href="#">Chris Kim</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible button -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+
             <!-- The links of our navbar -->
             <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
             </li>
-  
+
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.html">About</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
-    <body>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<body>
+<div class="container">
+   <div class= "row">
     <section class="main">
         <h1>Portfolio</h1>
-        <section class="line"><h2></h2></section>
-        <section class="repsponsive-image" >
-            <div class= "responsive">
+        <section class="line">
+            <h2></h2>
+        </section>
+        <section class="repsponsive-image">
+            <div class="responsive">
                 <img src="asset\HOMEWORK PIC\1.png" class="img-fluid" alt="Responsive image">
             </div>
-            <div class= "responsive">
+            <div class="responsive">
                 <img src="asset\HOMEWORK PIC\4.png" class="img-fluid" alt="Responsive image">
-            </div>    
-            <div class= "responsive">
+            </div>
+            <div class="responsive">
                 <img src="asset\HOMEWORK PIC\2.png" class="img-fluid" alt="Responsive image">
-            </div>    
-            <div class= "responsive">
+            </div>
+            <div class="responsive">
                 <img src="asset\HOMEWORK PIC\3.png" class="img-fluid" alt="Responsive image">
-            </div>    
-            <div class= "responsive">
+            </div>
+            <div class="responsive">
                 <img src="asset\HOMEWORK PIC\5.png" class="img-fluid" alt="Responsive image">
-            </div>    
+            </div>
         </section>
-            <div class="clearfix"></div>
+        <div class="clearfix"></div>
     </section>
-    </body>
+  </div>
+</div>
+    <footer class="footer">
+        <div class="row">
+          <span class="text-muted">Retail Group Investment, LLC</span>
+        </div>
+      </footer>
+</body>
+
 </html>
