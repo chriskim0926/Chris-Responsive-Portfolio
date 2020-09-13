@@ -7,8 +7,9 @@
 }
 .main{
     margin-bottom: 60px;
+    margin: 30px;
     background: white;  
-    width: auto;
+    width: 70%;
     height: auto;
     float: left;
 }
@@ -41,11 +42,11 @@ h1{
     padding-bottom: 25px;
     padding-right: 20px;
     float: left;
-    width: 24.99999%;
+    width: auto;
   }
-
-.main{
-    margin: 30px;
+p{
+    padding: 20px;
+    float: none;
 }
 
 @media screen and (max-width: 992px) {
@@ -56,15 +57,16 @@ h1{
   }
 @media screen and (max-width: 768px) {
     .responsive {
-    width: 100%;
+    width: 50%;
     margin: 6px 0;
     }
   }
 @media screen and (max-width: 400px) {
     .responsive {
-    width: 100%;
-  }
-
+    width: 50%;
+    margin: 6px 0;
+    }
+}
   .clearfix:after {
     content: "";
     display: table;
