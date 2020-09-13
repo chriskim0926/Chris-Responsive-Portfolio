@@ -5,11 +5,13 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js">
 <!--<![endif]-->
-
+* {
+    box-sizing: border-box;
+  }
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>My Portforlio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -26,21 +28,30 @@
 <link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="all styling.css">
 <link rel="stylesheet" href="index_styling.css">
-
 </head>
-<nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand" href="#">Your Name</a>
-      <ul class="nav justify-content-end">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <!-- Our brand / logo -->
+    <a style="color: white;" class="navbar-brand" href="#" >Chris Kim</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <!-- Collapsible button -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+
+        <!-- The links of our navbar -->
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        </li>
+
         <li class="nav-item">
-          <a class="nav-link active" href="#">Contact</a>
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
+            <a class="nav-link" href="index.html">About</a>
+          </li>
       </ul>
     </div>
   </nav>

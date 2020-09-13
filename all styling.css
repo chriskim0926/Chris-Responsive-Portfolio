@@ -1,5 +1,6 @@
 .navbar-brand{
     font-weight: 700;
+    font-size: 20pt;
     background: lightseagreen;
     color: white;
 }
@@ -10,4 +11,18 @@ a{
 a:hover{
     color: black;
     font-weight: 700;
+}
+body {
+    /* Box-model */
+    padding: 0;
+  
+    /* Positioning */
+    margin: 0;
+    background-image: url("./asset/Capture.PNG");
+    background-color: #cccccc;
+  }
+  
+.navbar{
+    background: white;
+    margin-bottom: 50px;
 }
