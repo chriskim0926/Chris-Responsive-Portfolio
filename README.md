@@ -7,6 +7,8 @@ Chris Kim About me page and Retail Group investment Product porforlio
 1)Each HTML housed with own CSS files with the same file name
 2)all styling css file inclues universal Styling for each page located in the all styling.css, including font, font size, font color, positioning, margin, padding, boarder, back ground color, and floats.
 3) Nav Bar and Footer styling are housed in all styling.css
+4) background pictures are in asset - asset\Capture.PNG
+5) inline Pictures are stored on asset -  asset\HOMEWORK PIC
 
 ## Usage
 NAV BAR controlled with responsive body for each HTML
